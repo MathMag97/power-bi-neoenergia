@@ -1,7 +1,7 @@
 # Portfólio Neoenergia (Power BI)
 Portfólio de projetos em Power BI construído durante o período de estágio na Neoenergia Brasília Distribuição S.A.
 ## Introdução
-Durante os dois anos (2022-2024) de estágio, eu tive a oportunidade de desenvolver análises para o Departamento de Operações, mais precisamente na Unidade Territorial de Expansão e Preservação, que é responsável pela manutenção e expansão de redes de distribuição aéreas (RDA), urbanas e rurais, na região do Distrito Federal. As análises foram realizadas utilizando a coleção de serviços oferecida pelo Power BI, sustentando os projetos nos seguintes aspectos:
+Este portfólio tem como objetivo reunir o trabalho realizado durante os dois anos (2022-2024) de estágio na Neoenergia, onde tive a oportunidade de desenvolver análises para o Departamento de Operações, mais precisamente na Unidade Territorial de Expansão e Preservação, que é responsável pela manutenção e expansão de redes de distribuição aéreas (RDA), urbanas e rurais, na região do Distrito Federal. As análises foram realizadas utilizando a coleção de serviços oferecida pelo Power BI, sustentando os projetos nos seguintes aspectos:
 - Extração, transformação e carregamento dos dados (ETL);
 - Modelagem de dados;
 - Construção de gráficos e métricas;
