@@ -41,12 +41,11 @@ Foi utilizada os recursos do Power Query e da Linguagem M para importar e proces
 </details>
 
 ## Analisando os dados
-A única métrica utilizada foi para encontrar o número total de serviços atendidos:
+Só foi construída uma medida em DAX para encontrar o número total de serviços:
+
 ```Total Serviços = DISTINCTCOUNT('f_OSE'[OS])```
 
 Os demais filtros foram realizados através das próprios campos contidos no conjunto de dados ou incluídos no mesmo (PQ).
-
-Assim, foi construído os visuais e o relatório.
 
 <details>
   <summary>Mostrar relatório</summary>
@@ -57,6 +56,8 @@ Assim, foi construído os visuais e o relatório.
 
 ## Compartilhando os dados
 
+Em breve.
 
 ## Plano de ação
 
+Em breve.
