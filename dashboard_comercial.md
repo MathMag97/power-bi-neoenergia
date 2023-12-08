@@ -1,4 +1,4 @@
-# Dashboard Comercial (serviços regulatórios)
+# Dashboard Comercial (serviços regulados) 80%
 
 ## Contextualização
 A legislação brasileira estabelece Regras de Prestação do Serviço Público de Distribuição de Energia Elétrica conforme a  [Resolução Normativa ANEEL nº 1.000/2021](https://www2.aneel.gov.br/cedoc/ren20211000.pdf). O artigo 439 da referida resolução diz que a "_qualidade do serviço prestado pela distribuidora será avaliada pela verificação do **cumprimento dos prazos** relacionados no Anexo IV._" Além disso, vale ressaltar que o descumprimento de prazos responsabiliza a distribuidora a creditar uma compensação para o cliente, prejudicando a receita da companhia.
@@ -23,9 +23,40 @@ Portanto, foi alinhado com os _stakeholders_ que estes seriam o conjunto de dado
 <img src="/assets/servicos-regulados/dados_resolução_1000.png" alt="Conjunto de dados"/>
 
 ## Processando os Dados
-O primeiro passo foi utilizar a Linguagem M dentro do Power Query para importar e limpar o conjunto de dados. 
+Foi utilizada os recursos do Power Query e da Linguagem M para importar e processar os dados.
 <details>
-  <summary>Imagens</summary>
+  <summary>Mostrar imagens</summary>
+  Código em M:
+  
   <img src="/assets/servicos-regulados/M_code.png" alt="Código em M"/>
+
+  Dados no Power Query e as etapas aplicadas:
+  
   <img src="/assets/servicos-regulados/PQ_import.png" alt="Power Query"/>
+
+  Modelo de dados:
+  
+  <img src="/assets/servicos-regulados/model.png" alt="Data Model"/>
+  
 </details>
+
+## Analisando os dados
+A única métrica utilizada foi para encontrar o número total de serviços atendidos:
+```Total Serviços = DISTINCTCOUNT('f_OSE'[OS])```
+
+Os demais filtros foram realizados através das próprios campos contidos no conjunto de dados ou incluídos no mesmo (PQ).
+
+Assim, foi construído os visuais e o relatório.
+
+<details>
+  <summary>Mostrar relatório</summary>
+  
+  <img src="/assets/servicos-regulados/dash_comercial_regulados.png" alt="Dashboard Comercial - Serviços Regulados" style="height: 1200px, width: 1280px" />
+  
+</details>
+
+## Compartilhando os dados
+
+
+## Plano de ação
+
