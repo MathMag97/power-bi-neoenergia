@@ -16,6 +16,16 @@ Nota-se, portanto, que é de suma importância que o setor responsável faça o 
 ## Preparando os Dados
 O maior desafio durante o projeto foi a inexistência de um _Data Warehouse_ que fizesse ETL no CRM da empresa e viabilizasse uma conexão direta com o Power BI. Após uma investigação descobriu-se que a única fonte de dados disponível e confiável eram duas planilhas Excel alimentadas através de um código VBA que exporta e armazena os dados do CRM.
 
-Portanto, foi alinhado com os _stakeholders_ que esta seria a fonte de dados utilizada para a construção das análises.
+Também foi necessária a criação de uma tabela dimensão chamada [dim_comercial] para categorizar os serviços e simplificar a análise.
+
+Portanto, foi alinhado com os _stakeholders_ que estes seriam o conjunto de dados utilizado para a construção das análises.
+
+<img src="/assets/servicos-regulados/dados_resolução_1000.png" alt="Conjunto de dados"/>
 
 ## Processando os Dados
+O primeiro passo foi utilizar a Linguagem M dentro do Power Query para importar e limpar o conjunto de dados. 
+<details>
+  <summary>Imagens</summary>
+  <img src="/assets/servicos-regulados/M_code.png" alt="Código em M"/>
+  <img src="/assets/servicos-regulados/PQ_import.png" alt="Power Query"/>
+</details>
