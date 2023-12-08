@@ -9,7 +9,7 @@ Este portfólio tem como objetivo reunir o trabalho realizado durante os dois an
 - Criação de _workspaces_ e aplicativos para compartilhamento dos conteúdos.
 ## Conteúdo do portfólio
 Segue abaixo os projetos desenvolvidos contendo uma explicação em maiores de detalhes da metodologia e raciocínio utilizado durante as análises.
-- Dashboard Comercial
+- [Dashboard Comercial](https://github.com/MathMag97/power-bi-neoenergia/blob/main/dashboard_comercial.md)
 - Dashboard Manutenção Preventiva
 - Dashboard Projetos e Obras
 - Dashboard OPEX
