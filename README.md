@@ -1,7 +1,7 @@
 # Power BI Portfolio 2022-2023
 Repositório contendo portfólio de projetos em Power BI construído durante meus dois anos de estágio em uma Distribuidora de Energia.
 
-_Observação: o nome da empresa e os dados sensíveis serão preservados, em respeito à Lei Geral de Proteção de Dados (LGPD)._
+_Observação: o nome da empresa, o conjunto de dados e demais informações sensíveis serão preservados, em respeito à Lei Geral de Proteção de Dados (LGPD)._
 ## Introdução
 Projetos realizados para uma Distribuidora de Energia, no Departamento de Operações, mais precisamente na Unidade Territorial de Expansão e Preservação, que é responsável pela manutenção e expansão de redes de distribuição aéreas (RDA), urbanas e rurais. As análises foram realizadas utilizando a coleção de serviços oferecida pelo Power BI, sustentando os projetos nos seguintes aspectos:
 - Extração, transformação e carregamento dos dados (ETL);
