@@ -1,15 +1,18 @@
-# Portfólio Neoenergia (Power BI)
-Portfólio de projetos em Power BI construído durante o período de estágio na Neoenergia Brasília Distribuição S.A.
+# Power BI Portfolio 2022-2023
+Repositório contendo portfólio de projetos em Power BI construído durante meus dois anos de estágio em uma Distribuidora de Energia.
+
+_Observação: o nome da empresa e os dados sensíveis serão preservados, em respeito à Lei Geral de Proteção de Dados (LGPD)._
 ## Introdução
-Este portfólio tem como objetivo reunir o trabalho realizado durante os dois anos (2022-2024) de estágio na Neoenergia, onde tive a oportunidade de desenvolver análises para o Departamento de Operações, mais precisamente na Unidade Territorial de Expansão e Preservação, que é responsável pela manutenção e expansão de redes de distribuição aéreas (RDA), urbanas e rurais, na região do Distrito Federal. As análises foram realizadas utilizando a coleção de serviços oferecida pelo Power BI, sustentando os projetos nos seguintes aspectos:
+Projetos realizados para uma Distribuidora de Energia, no Departamento de Operações, mais precisamente na Unidade Territorial de Expansão e Preservação, que é responsável pela manutenção e expansão de redes de distribuição aéreas (RDA), urbanas e rurais. As análises foram realizadas utilizando a coleção de serviços oferecida pelo Power BI, sustentando os projetos nos seguintes aspectos:
 - Extração, transformação e carregamento dos dados (ETL);
 - Modelagem de dados;
 - Construção de gráficos e métricas;
 - Elaboração de relatórios e dashboards e
 - Criação de _workspaces_ e aplicativos para compartilhamento dos conteúdos.
-## Conteúdo do portfólio
-Segue abaixo os projetos desenvolvidos contendo uma explicação em maiores de detalhes da metodologia e raciocínio utilizado durante as análises.
-- [Dashboard Comercial](https://github.com/MathMag97/power-bi-neoenergia/blob/main/dashboard_comercial.md)
+## Conteúdo
+- ### Núcleo Comercial
+  - [Serviços Regulados](https://github.com/MathMag97/power-bi-neoenergia/blob/main/dashboard_comercial.md): Dashboard simples para verificar o nível de eficácia, global e regional, do prazo de atendimento dos serviços regulados pela Agência Nacional de Energia Elétrica (ANEEL).
+  - [Plano de Inadimplência](https://github.com/MathMag97/power-bi-neoenergia/blob/main/dashboard_comercial.md): Dashboard para acompanhar a produtividade dos serviços de corte de energia de usuários inadimplentes.
 - Dashboard Manutenção Preventiva
 - Dashboard Projetos e Obras
 - Dashboard OPEX
