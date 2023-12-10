@@ -16,8 +16,6 @@ Projetos realizados para uma Distribuidora de Energia, no Departamento de Opera�
 - Dashboard Manutenção Preventiva
 - Dashboard Projetos e Obras
 - Dashboard OPEX
-## Ganhos para a empresa
-A percepção da liderança foi muito positiva, pois a cada projeto entregue o time se viu diante de dados mais precisos que orientavam uma tomada de decisão mais assertiva, contribuindo para uma cultura orientada a dados (_data drive-in_) na companhia. Além disso, dispunham também, através dos aplicativos e dashboards, de informações mais acessíveis e centralizadas, evitando a duplicidade de informações.
 ## Habilidades desenvolvidas
 - Resolução de problemas (Metodologia MASP, 5W2H, entre outras);
 - ETL;
