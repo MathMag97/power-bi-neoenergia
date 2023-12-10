@@ -1,6 +1,6 @@
 # Comercial - Serviços Regulados (80%)
 
-Os _stakeholders_ tinham dificuldade em acompanhar a qualidade dos serviços prestados pela distribuidora quanto ao cumprimento de prazos. Nesse sentido, realizei o ETL com o CRM da empresa, analisei os dados e construí um Dashboard (_data viz)_ com atualizações em tempo real. Portanto, através de metas e planos de ações, as trangressões de prazos foram reduzidas em 53,39% no 2° trimestre com relação ao 1° trimestre.
+Os _stakeholders_ tinham dificuldade em acompanhar a qualidade dos serviços prestados pela distribuidora quanto ao cumprimento de prazos. Nesse sentido, realizei o ETL com o CRM da empresa, analisei os dados e construí um Dashboard (_data viz)_ com atualizações em tempo real. Portanto, através de metas e planos de ações, as trangressões de prazos foram reduzidas em 21,9% no 2° trimestre com relação ao 1° trimestre e em 43,8% no 3° trimestre com relação ao 2° trimestre.
 
 <details>
   <summary> Mostrar Dashboard (spoiler) </summary>
@@ -40,7 +40,7 @@ Portanto, foi alinhado com os _stakeholders_ que utilizaríamos este conjunto de
 
 <img src="/assets/servicos-regulados/dados_resolução_1000.png" alt="Conjunto de dados"/>
 
-## Processando os Dados
+## 3. Processamento dos Dados
 Foi utilizado os recursos do Power Query e da Linguagem M para importar e processar (limpar e transformar) os dados.
 <details>
   <summary>Mostrar imagens</summary>
@@ -59,10 +59,12 @@ Foi utilizado os recursos do Power Query e da Linguagem M para importar e proces
   
 </details>
 
-## Analisando os dados
-Só foi construída uma medida em DAX para encontrar o número total de serviços:
+## 4. Análise dos dados
+Foi construída uma única medida em DAX para encontrar o número total de serviços:
 
-```Total Serviços = DISTINCTCOUNT('f_OSE'[OS])```
+``` python
+Total Serviços = DISTINCTCOUNT('f_OSE'[OS])
+```
 
 Os demais filtros foram realizados através das próprios campos contidos no conjunto de dados ou incluídos no mesmo (PQ).
 
