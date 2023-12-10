@@ -1,12 +1,15 @@
-# Dashboard Comercial (serviços regulados) 80%
+# Comercial - Serviços Regulados (80%)
+
+Os _stakeholders_ tinham dificuldade em acompanhar a qualidade dos serviços prestados pela distribuidora quanto ao cumprimento de prazos. Nesse sentido, realizei o ETL com o CRM da empresa, analisei os dados e construí um Dashboard (_data viz)_ com atualizações em tempo real. Portanto, através de metas e planos de ações, as trangressões de prazos foram reduzidas em 53,39% no 2° trimestre com relação ao 1° trimestre.
+
 <details>
-  <summary>Mostrar dashboard (spoiler)</summary>
+  <summary> Mostrar Dashboard (spoiler) </summary>
   
   <img src="/assets/servicos-regulados/dash_comercial_regulados.png" alt="Dashboard Comercial - Serviços Regulados" style="height: 1200px, width: 1280px" />
   
 </details>
 
-## Contextualização
+## Contexto
 A legislação brasileira estabelece Regras de Prestação do Serviço Público de Distribuição de Energia Elétrica conforme a  [Resolução Normativa ANEEL nº 1.000/2021](https://www2.aneel.gov.br/cedoc/ren20211000.pdf). O artigo 439 da referida resolução diz que a "_qualidade do serviço prestado pela distribuidora será avaliada pela verificação do **cumprimento dos prazos** relacionados no Anexo IV._" Além disso, vale ressaltar que o descumprimento de prazos responsabiliza a distribuidora a creditar uma compensação para o cliente, prejudicando a receita da companhia.
 
 ## Cenário
